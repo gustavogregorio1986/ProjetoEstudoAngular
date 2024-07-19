@@ -1,0 +1,36 @@
+/* Estilos do menu */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+    color: yellow;
+}
+
+/* Estilo para o link ativo */
+.menu ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
